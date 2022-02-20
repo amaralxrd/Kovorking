@@ -1,0 +1,170 @@
+body {
+    margin: 0 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #000000;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/*Container
+===============*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+/*Header
+================*/
+
+.header {
+    background-color: #353535;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 120px;
+}
+
+.header_inner {
+    padding: 25px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header_logo {
+    height: 70px;
+}
+
+/*Navigation
+================*/
+.nav {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav_link {
+    margin-left: 80px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.nav_number {
+    margin-left: 618px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+
+/*Intro
+================*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    height: 780px;
+    padding-top: 120px;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 1920px;
+    height: 780px;
+    margin: 0;
+    text-align: center;
+    background: url("img/fon.jpg")
+}
+
+/*Text
+================*/
+.intro_text {
+    padding-top: 156px;
+}
+
+.intro_title1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.intro_title2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #4FC23C;
+}
+
+.intro_title3 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+/*Button
+================*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 30px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.btn--green {
+    background-color: #4FC23C;
+}
+
+/*Footer
+================*/
+.footer {
+    background-color: #353535;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+}
+
+.footer_inner {
+    color: #fff;
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    flex-direction: column;
+    text-align: center;
+    margin: 25px 0;
+}
